@@ -33,18 +33,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/justayu/SoloCloud",
+    "https://github.com/Shivasengar12/Thenykaqueem",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Life_Codes")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Life_Codes")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Equinoxbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/equinox_chats")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
